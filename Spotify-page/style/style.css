@@ -1,0 +1,15 @@
+.header{
+    background-color: black;
+    color: green;
+    padding: 5px;
+}
+
+.header ul{
+    color: white;
+    list-style: none;
+}
+
+.header .navbar{
+    display: flex;
+    justify-content: space-between;
+}
