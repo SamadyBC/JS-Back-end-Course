@@ -77,3 +77,50 @@ header div {
     border: 1px solid white;
 }
 
+.section-benefits{
+    background-color: green;
+    color: white;
+}
+
+.section-benefits div{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.section-benefits div h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.section-benefits div h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;;
+}
+
+.section-benefits div table{
+    margin: auto;
+    width: 70%;
+    border: 3px solid white;
+}
+
+.section-benefits div table thead{
+    margin: auto;
+    width: 70%;
+}
+
+.section-benefits div table tbody{
+    margin: auto;
+    width: 70%;
+}
+
+.section-benefits div table tr{
+    margin: auto;
+    width: 70%;
+}
+
+.section-benefits div svg{
+    width: 70%;
+}
