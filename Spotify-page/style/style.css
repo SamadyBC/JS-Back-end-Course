@@ -78,7 +78,7 @@ header div {
 }
 
 .section-benefits{
-    background-color: green;
+    background-color: black;
     color: white;
 }
 
@@ -100,27 +100,36 @@ header div {
     font-size: 30px;;
 }
 
-.section-benefits div table{
+.section-benefits #benefits-table{
     margin: auto;
-    width: 70%;
-    border: 3px solid white;
+    width: 50%;
+    table-layout: fixed;
+    border-collapse: collapse;
 }
 
-.section-benefits div table thead{
-    margin: auto;
-    width: 70%;
+#benefits-table thead {
+  background-color: black; /* Cor de fundo para destacar */
 }
 
-.section-benefits div table tbody{
-    margin: auto;
-    width: 70%;
+#benefits-table tbody {
+  background-color: black; /* Cor de fundo para destacar */
 }
 
-.section-benefits div table tr{
-    margin: auto;
-    width: 70%;
+#benefits-table td{
+    text-align: center;
+    padding: 6px 10px; 
 }
 
-.section-benefits div svg{
-    width: 70%;
+#benefits-table th{
+    text-align: center;
+    padding: 6px 10px; 
+}
+
+#benefits-table tr{
+    border-bottom: 1px solid white;
+}
+
+#benefits-table .check-icon {
+    width: 30px;
+    fill: white;
 }
