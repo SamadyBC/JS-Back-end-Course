@@ -162,6 +162,7 @@ header div {
 .cartoes-credito{
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .cartoes-credito img{
@@ -181,9 +182,56 @@ header div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 500px;
+    height: 600px;
     max-width: 180px;
     font-size: 15px;
 }
 
+.mes-gratuito{
+    background: rgb(13,114, 234);
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.pagamento-unico{
+    color:rgb(29, 117, 222);
+    border: 1px solid rgb(29, 117, 222);
+    border-radius: 2px;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.preco{
+    text-align: left;
+}
+
+.plano hr{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.plano ol{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    list-style-type: "• ";
+}
+
+.btn-comece-agora{
+    background-color: black;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 60px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.conditions, .conditions a{
+    color: rgb(83, 83, 83);
+    font-size: 10px;
+}
 
