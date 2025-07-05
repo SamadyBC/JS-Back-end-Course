@@ -1,15 +1,288 @@
-.header{
-    background-color: black;
-    color: green;
-    padding: 5px;
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
-.header ul{
+header{
+    background-color: black;
+    display: flex;
+    padding: 15px;
+}
+
+header div {
+    background-color: black;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.spotify-logo {
+    width: 100px; 
+    height: 30px; 
+}
+
+.menu {
     color: white;
+    display: flex;
+    align-items: center;
+}
+
+.menu   li:hover{
+    color: #1ed760;
+}
+
+.menu li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.section-premium {
+    background-color: rgb(29, 117, 222);
+    color: white;
+}
+
+.section-premium div{
+    width: 80%;
+    margin: auto;
+}
+
+.section-premium h1{
+    font-size: 40px;
+    padding: 40px 0;
+}
+
+.section-premium h2{
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.section-premium p{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-premium a{
+    color: white;
+}
+
+#btn-comece-agora{
+    background-color: black;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 60px;
+    border: 1px solid black;
+}
+
+#btn-ver-planos{
+    background-color: rgb(29, 117, 222);
+    color: white; 
+    padding: 15px 35px;
+    border-radius: 60px;
+    border: 1px solid white;
+}
+
+.section-benefits{
+    background-color: black;
+    color: white;
+}
+
+.section-benefits div{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.section-benefits div h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.section-benefits div h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;;
+}
+
+.section-benefits #benefits-table{
+    margin: auto;
+    width: 50%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+#benefits-table thead {
+  background-color: black; /* Cor de fundo para destacar */
+}
+
+#benefits-table tbody {
+  background-color: black; /* Cor de fundo para destacar */
+}
+
+#benefits-table td{
+    text-align: center;
+    padding: 6px 10px; 
+}
+
+#benefits-table th{
+    text-align: center;
+    padding: 6px 10px; 
+}
+
+#benefits-table tr{
+    border-bottom: 1px solid white;
+}
+
+#benefits-table .check-icon {
+    width: 30px;
+    fill: white;
+}
+
+.metodos-pagamento{    
+    background-color:#efefef;
+    color: black;
+
+}
+.metodos-pagamento h2{
+    font-size: 30px;
+    padding-top: 70px;
+}
+
+.metodos-pagamento h3{
+    font-size: 15px;
+    padding: 20px 0;
+}
+
+.metodos-pagamento div{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.metodos-pagamento ul{
     list-style: none;
 }
 
-.header .navbar{
+.cartoes-credito{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.cartoes-credito img{
+    width: 30px;
+    display: flex;
+}
+
+.section-planos{
+    display: flex;  
+    height: 800px; 
+    max-width: 900px;
+    margin: auto;
+}
+
+.plano{
+    background-color: white;
+    box-shadow: 1px 1px 5px rgb(136, 136, 136);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 700px;
+    max-width: 180px;
+    font-size: 15px;
+}
+
+.mes-gratuito{
+    background: rgb(13,114, 234);
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.pagamento-unico{
+    color:rgb(29, 117, 222);
+    border: 1px solid rgb(29, 117, 222);
+    border-radius: 2px;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.preco{
+    text-align: left;
+}
+
+.plano hr{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.plano ol{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    list-style-type: "• ";
+}
+
+.btn-comece-agora{
+    background-color: black;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 60px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.btn-comece-agora:hover{
+
+    padding: 20px 40px;
+}
+
+.conditions, .conditions a{
+    color: rgb(83, 83, 83);
+    font-size: 10px;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 70px 10%;
+}
+
+footer div ul{
+    color: #919496;
+    list-style-type: none;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+
+}
+
+footer li:nth-child(1){
+    padding-bottom: 20px;
+}
+
+footer li {
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+footer img{
+    width: 150px;
+    padding-right: 20px;
+}
+
+footer i{
+    color: white;
+    font-size:20px;
+    padding: 0 10px;
 }
