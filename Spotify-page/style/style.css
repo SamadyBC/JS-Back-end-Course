@@ -133,3 +133,43 @@ header div {
     width: 30px;
     fill: white;
 }
+
+.metodos-pagamento{    
+    background-color:#efefef;
+    color: black;
+
+}
+.metodos-pagamento h2{
+    font-size: 30px;
+    padding-top: 70px;
+}
+
+.metodos-pagamento h3{
+    font-size: 15px;
+    padding: 20px 0;
+}
+
+.metodos-pagamento div{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.metodos-pagamento ul{
+    list-style: none;
+}
+
+.cartoes-credito{
+    display: flex;
+    justify-content: center;
+}
+
+.cartoes-credito img{
+    width: 30px;
+    display: flex;
+}
+
+.section-planos{
+    display: flex;
+}
+
