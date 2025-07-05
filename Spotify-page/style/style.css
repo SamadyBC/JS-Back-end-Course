@@ -1,6 +1,7 @@
 *{
     margin: 0; 
     padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 header{
@@ -27,6 +28,11 @@ header div {
     display: flex;
     align-items: center;
 }
+
+.menu   li:hover{
+    color: #1ed760;
+}
+
 .menu li {
     list-style: none;
     margin-left: 20px;
@@ -171,7 +177,10 @@ header div {
 }
 
 .section-planos{
-    display: flex;   
+    display: flex;  
+    height: 800px; 
+    max-width: 900px;
+    margin: auto;
 }
 
 .plano{
@@ -182,7 +191,7 @@ header div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 600px;
+    height: 700px;
     max-width: 180px;
     font-size: 15px;
 }
@@ -230,8 +239,50 @@ header div {
     margin: auto;
 }
 
+.btn-comece-agora:hover{
+
+    padding: 20px 40px;
+}
+
 .conditions, .conditions a{
     color: rgb(83, 83, 83);
     font-size: 10px;
 }
 
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 70px 10%;
+}
+
+footer div ul{
+    color: #919496;
+    list-style-type: none;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+
+}
+
+footer li:nth-child(1){
+    padding-bottom: 20px;
+}
+
+footer li {
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+footer img{
+    width: 150px;
+    padding-right: 20px;
+}
+
+footer i{
+    color: white;
+    font-size:20px;
+    padding: 0 10px;
+}
